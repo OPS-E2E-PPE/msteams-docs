@@ -1,6 +1,29 @@
 {
-  "docsets_to_publish": [],
+  "docsets_to_publish": [
+    {
+      "docset_name": "msteams-platform",
+      "build_source_folder": "msteams-platform",
+      "build_output_subfolder": "msteams-platform",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "customized_tasks": {
+        "docset_prebuild": [
+          "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1"
+        ]
+      }
+    }
+  ],
   "notification_subscribers": [],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/msteams-docs",
   "git_repository_branch_open_to_public_contributors": "master",
@@ -13,37 +36,13 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
-    },
-    {
-      "path_to_root": "_msteams-samples-hello-world-nodejs",
-      "url": "https://github.com/OfficeDev/msteams-samples-hello-world-nodejs",
-      "branch": "master",
-      "branch_mapping": {}
-    },
-    {
-      "path_to_root": "_msteams-samples-hello-world-csharp",
-      "url": "https://github.com/OfficeDev/msteams-samples-hello-world-csharp",
-      "branch": "master",
-      "branch_mapping": {}
-    },
-    {
-      "path_to_root": "botbuilder-samples",
-      "url": "https://github.com/Microsoft/BotBuilder-Samples",
-      "branch": "master",
-      "branch_mapping": {}
     }
   ],
-  "branch_target_mapping": {
-    "live": [
-      "Publish",
-      "Pdf"
-    ],
-    "master": [
-      "Publish",
-      "Pdf"
-    ]
-  },
+  "branch_target_mapping": {},
   "need_generate_pdf_url_template": false,
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  },
   "JoinTOCPlugin": [
     {
       "ConceptualTOC": "/msteams-platform/TOC.yml",
