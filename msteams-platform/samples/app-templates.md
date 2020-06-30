@@ -70,6 +70,23 @@ It provides a foundation to build custom targeted communication capabilities suc
 
 ![FAQ Plus gif](../assets/images/CompanyCommunicatorCompose.png)
 
+## Contact Group Lookup &#9734;
+
+The Contact Group Lookup app provides a convenient and useful approach to creating, accessing, and managing your organization's contact groups (formerly known as distribution lists or communication groups). Users can quickly view and chat with group members, view member status, and create a group chat with selected members in the contact group, all within the Teams environment.
+
+[Get it on GitHub](https://github.com/OfficeDev/microsoft-teams-app-contactgrouplookup)
+
+:::row:::
+:::column span="2":::
+    ![Contact Group Lookup pinned favorites view](../assets/images/contact-group-lookup-favorites.png)  
+:::column-end:::
+:::row-end:::
+:::row:::
+:::column span="2":::
+    ![Contact Group Lookup start chat demo](../assets/images/contact-group-lookup-chat.png)
+:::column-end:::
+:::row-end:::
+
 ## CrowdSourcer
 
 CrowdSourcer is a [Microsoft Teams bot](../bots/what-are-bots.md) that gives teams queried information sourced collaboratively from group members. It's a great way to answer frequently asked questions while enabling participants to actively engage in and contribute to a fun and helpful information resource.
@@ -96,7 +113,7 @@ Expert Finder is a [Microsoft Teams bot](../bots/what-are-bots.md) that identifi
 
 ![Expert Finder search results demo](../assets/images/expert-finder.png)
 
-## FAQ Plus 
+## FAQ Plus
 
 Conversational Q&A bots are an easy way to provide answers to frequently asked questions by users. However, most bots fail to engage with users in meaningful way because there is no human in the loop when the bot fails. FAQ bot is a friendly Q&A bot that brings a human in the loop when it is unable to help. One can ask the bot a question and the bot responds with an answer if it is contained in the knowledge base. If not, the bot allows the user to submit a query which then gets posted to a pre-configured team of experts who help to provide support by acting upon the notifications from within the team itself.
 
@@ -109,7 +126,7 @@ Conversational Q&A bots are an easy way to provide answers to frequently asked q
 >
 > &#x2714; Track the revision history of Q&As.
 >
-> &#x2714; Configure an answer with additional details to display as an [adaptive card](/task-modules-and-cards/cards/cards-reference#adaptive-card).
+> &#x2714; Configure an answer with additional details to display as an [adaptive card](../task-modules-and-cards/cards/cards-reference.md#adaptive-card).
 >
 [**Get it on GitHub**](https://github.com/OfficeDev/microsoft-teams-apps-faqplusv2)
 
@@ -274,5 +291,22 @@ To help alleviate this pain, we are happy to bring to you the List Search app te
 [Get it on GitHub](https://github.com/OfficeDev/microsoft-teams-list-search-app)
 
 ![List Search app](../assets/images/list-search-template.png)
+
+## Workplace Awards &#9734;
+
+Workplace Awards is a Teams app template that provides a positive framework to foster recognition and encourage the culture of employee appreciation in the modern workplace. The app enables you to setup and manage an employee rewards and recognition (R&R) program where employees can easily nominate and endorse colleagues and your R&R leader can view submitted nominations, grant awards, and announce recipients.
+
+[Get it on GitHub](https://github.com/OfficeDev/microsoft-teams-apps-workplaceawards)
+
+:::row:::
+  :::column span="2":::
+    ![Workplace awards nomination card ](../assets/images/workplace-awards-nominate.png)
+:::column-end:::
+:::row-end:::
+:::row:::
+:::column span="2":::
+    ![Workplace awards list tab](../assets/images/workplace-awards-champion-tab.png)
+:::column-end:::
+:::row-end:::
 
 Have an idea for an app template you'd like to see? [Please let us know](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR2_7qFm_lcZAr4eqEhnLsZ9UMVZGT1lCT0FXUDdZMUM0RkpBS1BESTAwWC4u).
