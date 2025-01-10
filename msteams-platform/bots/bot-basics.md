@@ -1,9 +1,9 @@
 ---
 title: Bot basics
-author: clearab
-description: Understand the basics of bots in Teams.
+author: khairunj
+description: Understand the basics of bots in Teams Test.
 ms.topic: conceptual
-ms.author: anclear
+ms.author: khairunj
 ---
 # Bot basics
 
